@@ -20,7 +20,7 @@ app_name = "EcommerceWebsite"
 
 #URL configurations
 urlpatterns = [
-    path('accounts/', include('allauth.urls')),
+    path('', include('allauth.urls')),
     path('admin/', admin.site.urls),
     path('', HomeView.as_view(), name='index'),
     path('product/<slug>/',ProductDetailView.as_view(), name='detail'),

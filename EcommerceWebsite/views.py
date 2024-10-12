@@ -32,11 +32,11 @@ def search(request):
             return render(request, 'index.html', {})
 
 
-def detail_item(request):
+def detailitem(request):
     return render(request, "product-detail.html")
 
 
-def cart_list(request):
+def cartlist(request):
     return render(request, "cart.html")
 
 
