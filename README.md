@@ -1,9 +1,5 @@
 # Mpesa Integrated ecommerce website.
 This is an e-commerce system that has an HTML, CSS, JavaScript, and SCSS frontend, and a Django backend. The ecommerce system is integrated with Mpesa, allowing users to purchase products. When a user makes a purchase, an Mpesa prompt message is sent to their phone, asking them to enter their Mpesa PIN. Additionally, the ecommerce system includes authentication features, enabling users to sign up, log in, and log outi. Below are screenshots demonstrating the process of a user purchasing a product.
-![page2](https://github.com/Kimani-dev931/Django-Ecommerce/assets/77829096/6512cbf1-a96b-4a52-92c5-b79ec17135fe)
-![page3](https://github.com/Kimani-dev931/Django-Ecommerce/assets/77829096/de964dae-edc1-4bd8-aab3-bdf7e144e569)
-![page4](https://github.com/Kimani-dev931/Django-Ecommerce/assets/77829096/1fb0c5c0-2ed0-4c17-97cd-484ce37c3338)
-![page5](https://github.com/Kimani-dev931/Django-Ecommerce/assets/77829096/b774d6dd-d39f-4258-8a5d-414fe1746ef5)
 
 Installation
 git clone https://github.com/desniland/E-Commerce_Website_Portfolio_Project.git
