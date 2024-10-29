@@ -39,7 +39,10 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'EcommerceWebsite'
+    'EcommerceWebsite',
+    'mpesa',
+    'crispy_forms',
+    'crispy_bootstrap4',
 
 ]
 
@@ -139,3 +142,11 @@ import os
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+MPESA_CONFIG = {
+    'CONSUMER_KEY': 'gyGTo2C9GcF7IYgFi1hNRGQgphcqWWbQVjtglv4rwFNZ82MG', 'CONSUMER_SECRET': 'YYJjrRTBlVuOTTtVb1AdBc9IlNzGs66RpwzNKZYXEnD6Yt3GzCkPF0VgHtXrEGOS', 'HOST_NAME': '<https://127.0.0.1', 'PASS_KEY': 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919', 'SAFARICOM_API': 'https://sandbox.safaricom.co.ke', 'SHORT_CODE': '174379'
+
+}
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'  # or 'bootstrap5', 'uni_form', etc.
+
