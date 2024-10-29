@@ -71,7 +71,7 @@ class OrderSummaryView(View):
             return render(self.request, 'cart.html', context)
         except ObjectDoesNotExist:
             message.error(self.request, "You do not have an active order")
-            return redirect("/")
+            return redirect("cart", slug=slug)
 
 
 class ProductDetailView(DetailView):
@@ -114,7 +114,7 @@ def remove_from_cart(request, slug):
                 user=request.user,
                 ordered=False)[0]
             order.items.remove(order_item)
-            return redirect("cart")
+            return redirect("cart", slug=slug)
         else:
             # add a message saying the order does not contain the item
             return redirect("detail", slug=slug)
