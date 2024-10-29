@@ -7,3 +7,39 @@ This is an e-commerce system that has an HTML, CSS, JavaScript, and SCSS fronten
 ![page5](https://github.com/Kimani-dev931/Django-Ecommerce/assets/77829096/b774d6dd-d39f-4258-8a5d-414fe1746ef5)
 ![page6](https://github.com/Kimani-dev931/Django-Ecommerce/assets/77829096/521cf488-dcc2-4523-a2f7-5ef555b3b479)
 ![Products upload Admin section](https://github.com/Kimani-dev931/Mpesa-Integrated-Django-Ecommerce-Website/assets/77829096/b8b17e3f-4cc1-4715-a871-126d8f49776e)
+
+Installation
+git clone https://github.com/desniland/E-Commerce_Website_Portfolio_Project.git
+
+cd E-Commerce_Website_Portfolio_Project
+
+pip install virtualenv
+
+virtualenv env
+
+For Mac/ Linux
+source env/bin/activate
+
+For Window
+env\Scripts\activate
+
+pip install -r requirements.txt
+
+Install below version in terminal and 'New Version will face version conflict error'
+
+pip install Django==2.2.4
+python -m pip install django-allauth==0.40.0
+pip install django-crispy-forms==1.7.2
+pip install Pillow
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py runserver
+
+For Admin Login
+python manage.py createsuperuser
+Username : admin
+Password: ''
+
+Demo: http://127.0.0.1:8000/
