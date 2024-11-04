@@ -1,4 +1,4 @@
-# Mpesa Integrated ecommerce website.
+# PayPal Integrated ecommerce website.
 This is an e-commerce system that has an HTML, CSS, JavaScript, and SCSS frontend, and a Django backend. The ecommerce system is integrated with Paypal, allowing users to purchase products. When a user makes a purchase, a Paypal prompt message is sent to their phone, asking them to enter their Credit Card Information. Additionally, the ecommerce system includes authentication features, enabling users to sign up, log in, and log out. Below are screenshots demonstrating the process of a user purchasing a product.
 
 ![home-pic1](https://github.com/user-attachments/assets/262a07a2-8763-433f-b051-78f0e39e669c)
