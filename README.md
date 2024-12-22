@@ -8,7 +8,7 @@ This is an e-commerce system that has an HTML, CSS, JavaScript, and SCSS fronten
 ![checkout-pic5](https://github.com/user-attachments/assets/13b349c9-825a-490c-a421-042b11c48725)
 ![pay-pic6](https://github.com/user-attachments/assets/554a28ba-4e65-4075-8d10-61d6569eba4f)
 
-Installation
+# Installation
 git clone https://github.com/desniland/E-Commerce_Website_Portfolio_Project.git
 
 
@@ -20,18 +20,18 @@ pip install virtualenv
 
 virtualenv env
 
-For Mac/ Linux:
+# For Mac/ Linux:
 
 source env/bin/activate
 
-For Window:
+# For Window:
 
 env\Scripts\activate
 
 pip install -r requirements.txt
 
 
-Install below version in terminal and 'New Version will face version conflict error'
+# Prerequisites
 
 pip install Django==2.2.4
 
@@ -41,15 +41,16 @@ pip install django-crispy-forms==1.7.2
 
 pip install Pillow
 
-python manage.py makemigrations
+Run
+$ python manage.py makemigrations
 
-python manage.py migrate
+$ python manage.py migrate
 
-python manage.py runserver
+$ python manage.py runserver
 
 For Admin Login
 
-python manage.py createsuperuser
+$ python manage.py createsuperuser
 
 Username : admin
 
