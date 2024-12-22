@@ -33,15 +33,15 @@ pip install -r requirements.txt
 
 # Prerequisites
 
-pip install Django==2.2.4
+1. pip install Django==2.2.4
 
-python -m pip install django-allauth==0.40.0
+2. python -m pip install django-allauth==0.40.0
 
-pip install django-crispy-forms==1.7.2
+3. pip install django-crispy-forms==1.7.2
 
-pip install Pillow
+4. pip install Pillow
 
-Run
+Run on terminal
 $ python manage.py makemigrations
 
 $ python manage.py migrate
